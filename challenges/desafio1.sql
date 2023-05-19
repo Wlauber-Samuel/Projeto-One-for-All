@@ -20,7 +20,7 @@ VALUES
   ('pessoal', 6.99);
 
 -- Tabela de usuários
-CREATE TABLE SpotifyClone.usuarios(
+    CREATE TABLE IF NOT EXISTS usuarios(
     usuario_id INT PRIMARY KEY AUTO_INCREMENT,
     nome_usuario VARCHAR(50) NOT NULL,
     idade INT NOT NULL,
