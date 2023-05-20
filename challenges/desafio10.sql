@@ -1,7 +1,7 @@
 USE SpotifyClone;
 
 -- Tabela de cancoes favoritas
-CREATE TABLE IF NOT EXISTS tabela_cancoes_favoritas (
+CREATE TABLE IF NOT EXISTS SpotifyClone.tabela_cancoes_favoritas (
 	usuario_id_favorito INT NOT NULL,
 	cancao_id_favorito INT NOT NULL,
 	CONSTRAINT PRIMARY KEY (usuario_id_favorito, cancao_id_favorito),
